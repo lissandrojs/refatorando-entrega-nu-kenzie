@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+.logo--nu{
+    width: 123px;
+    height: 20px;
+}
+.container__header{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 21px;
+}
+
+.btn__init{
+    width: 64px;
+    height: 40px;
+    background-color: #E9ECEF;
+    color: #868E96;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px;
+    font-family:'Nunito', sans-serif;
+}
+.btn__init:hover{
+    background-color: #868E96;   
+    color: #F8F9FA; 
+}
