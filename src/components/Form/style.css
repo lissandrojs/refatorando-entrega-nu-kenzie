@@ -6,7 +6,7 @@ body{
 
 .form__containe {
     width: 347px;
-    height: 351px;
+    height: 100%;
     background-color: #FFFFFF;
     border-radius: 4px;
     position: relative;
@@ -117,20 +117,16 @@ body{
     color: #FFFFFF;
     position: relative;
     left: 4px;
-    top: 155px;
+    top: 145px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 
 .valorTotal p{
     position: relative;
     top: 28px;
-}
-
-.container-main{
-    position: relative;
-    bottom: 90px;
 }
 
 .paragrafo-texto{
@@ -141,6 +137,9 @@ body{
 .paragrafo-valor{
     position: relative;
     right: 16px;
+}
+.container-main{
+    margin-top: -490px;
 }
 
 @media (max-width:350px) {
@@ -155,11 +154,15 @@ body{
     }
     .valorTotal {
         width: 280px;
+        margin-bottom: 120px;
     }
-   
+    .container-main{
+        margin-top: -370px;
+    }
 }
 
 @media (min-width: 700px){
+
     .form__containe{
         width:363px;
         height: 351px;
@@ -173,6 +176,7 @@ body{
         justify-content: space-evenly;
         box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
         left: 0px;
+
         
     }
     .valorTotal{
@@ -186,6 +190,11 @@ body{
         margin-bottom: 60px;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 120px;
+        margin-top:40px;
+    }
+    .container-main{
+        margin-top: -220px;
     }
 
 }
@@ -208,6 +217,10 @@ body{
     }
     .valorTotal {
         width: 255px;
+    }
+
+    .container-main{
+        margin-top: -100px;
     }
 
 }

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import HeaderNu from './components/HeaderNu';
 import MainBody from './components/Main';
+import '../src/reset.css'
+
 
 const  App =()=> {
 
@@ -10,12 +12,12 @@ const  App =()=> {
   ])
 
   const addValueList =(list)=>{
-    
+
         setListTransactions([...listTransactions,list])
   }
 
   return (
-    <div>
+    <>
       <HeaderNu 
         addValueList={addValueList}/>
         
@@ -23,7 +25,7 @@ const  App =()=> {
         setListTransactions={setListTransactions} 
         listTransactions={listTransactions}
         addValueList={addValueList}/>
-    </div>
+    </>
   );
 }
 

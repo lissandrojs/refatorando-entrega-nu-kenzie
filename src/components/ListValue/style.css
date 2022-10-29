@@ -165,6 +165,10 @@
     color: #E9ECEF;
 
 }
+.container__main{
+    position: relative;
+    top: 141px;
+}
 @media (max-width:350px) {
     .container__btn {
         left: 6px;
@@ -240,6 +244,10 @@
         justify-content: space-between;
     
     }
+    .container__main{
+        top: 0px;
+        position: relative;
+    }
 }
 @media (min-width:768px){
     .container__btn { 
@@ -252,6 +260,10 @@
     .container__list--item--saida {
         width:390px ;
         justify-content: center;
+    }
+    .container__main{
+        top: 0px;
+        position: relative;
     }
 
 }

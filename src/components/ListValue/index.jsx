@@ -11,7 +11,7 @@ const ListValue =({listTransactions,setListTransactions})=>{
        }
 
     return(
-        <div >
+        <div className='container__main'>
             <nav className='container__btn'>
                 <h2>Resumo financeiro</h2>
                 <div >
